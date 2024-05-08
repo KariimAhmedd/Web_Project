@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <a href="home.html">
+        <h1 id="site-name">Shift Store</h1>
+    </a>
+
+
+    <h3 id="under-name">For tunning and modification</h3>
+    
+    
+    <nav>
+        <input type="search" id="searchBar" placeholder="Search for products..."/>
+            <select id="brandfliter">
+                <option value="all">All Brands</option>
+                <option value="audi">AUDI</option>
+                <option value="bmw">BMW</option>
+                <option value="mercsdes">MERCSDES</option>
+                <option value="vw">VW</option>
+            </select>
+    </nav>
+
+
+    <nav class="top-menu">
+        <ul>
+            <li class="dropmenu">
+                <a href="vehicle.html" class="vehicle">VEHICLE</a>
+                <ul class="dropdown-menu vehicle-dropdown">
+                    <li><a href="#AUDI">AUDI</a></li>
+                    <li><a href="#BMW">BMW</a></li>
+                    <li><a href="#MERCSDES">MERCSDES</a></li>
+                    <li><a href="#VW">VW</a></li>    
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#product">PRODUCTS</a>
+                <ul class="dropdown-menu product-dropdown">
+                    <li><a href="#intake">Intake</a></li>
+                    <li><a href="#exhaust">Exhaust System</a></li>
+                    <li><a href="#turbo">Turbo/Superchargers</a></li>
+                    <li><a href="#fuel">Fuel System</a></li>
+                    <li><a href="#exterior">Exterior</a></li>
+                    <li><a href="#oil">Oil Cooler</a></li>
+                    <li><a href="#cooler">Cooler</a></li>
+                    <li><a href="#interior">Interior</a></li>
+                    <li><a href="#suspensions">Suspensions</a></li>
+                    <li><a href="#rims">Rims</a></li>
+                    <li><a href="#software">Software/Tuning</a></li>
+                    <li><a href="#rebuild">Rebuild Engine</a></li>
+
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <ul class="dropdown-menu bundle-dropdown">
+                    <li><a href="#">AUDIS</a></li>
+                    <li><a href="#">BEMERS</a></li>
+                    <li><a href="#">MERCDS</a></li>
+                    <li><a href="#">VAG</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#" id="cart-button"><i class="fas fa-shopping-cart"></i>CART</a></li>
+
+        </ul>
+    </nav>
+    <div class="top">
+        <div class="slideshow">
+            <img class="mySlides" 
+            src="https://i.shgcdn.com/a9fd041e-dff8-4559-bad7-a07957af4eee/-/format/auto/-/preview/3000x3000/-/quality/lighter/" 
+            style="display: block;">
+
+            <img class="mySlides"
+            src="https://parksidemotors.ca/wp-content/uploads/2020/12/Is-Your-Car-Backfiring.jpg" 
+            style="display: block;">
+
+            <img class="mySlides" 
+            src="https://bigkidsid.files.wordpress.com/2019/08/img_4967.jpg" 
+            style="display: block;">
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div class="bundle">
+            <img src="https://urotuned.com/unitronic-stage2-mk6-gti.jpg" 
+            alt="">
+            <h3 class="text">BUNDLE OF THE MONTH - GOLF BUNDLE</h3>
+
+            <img src="https://www.tuningcarbonhoods.co.uk/22581-large_default/body-kit-mercedes-w205-amg-2-doors-look-c63.jpg" 
+            alt="">
+            <h3 class="text">BUNDLE OF THE MONTH - C63 KIT</h3>
+
+            
+        </div>
+
+        <div class="bundle-2">
+            <img src="https://fmic.eu/media/catalog/product/cache/e49a16b951bdaea102accaa6a07b2883/z/e/zestawtuningowy004.png" 
+            alt="">
+            <h3 class="text">BUNDLE OF THE MONTH - BMW BUNDLE</h3>
+
+
+            <img src="https://www.getunitronic.com/media/images/blog/c8-rs6-rs7-stg3-software/Blog-4-0TFSI-C8-RS6-Stage3-TTE1020-perf-soft-banner-5b-web.jpg" 
+            alt="">
+            <h3 class="text">BUNDLE OF THE MONTH - AUDI BUNDLE</h3>
+
+        
+        </div>
+
+    </div>
+
+    <main>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <div class="product" data-brand="BMW">
+                    <img src="https://media.pkwteile.de/360_photos/13826278/preview.jpg" 
+                    alt="BMW M Performance Brakes">
+                    <h3>  Performance Brake</h3>
+                    <p>Bolt-on more efficient stopping with performance RPS kits and high-performance brake fluids.</p>
+                </div>
+
+                <div class="product" data-brand="VW">
+                    <img src="https://cdn11.bigcommerce.com/s-k6ksy074j3/images/stencil/1280x1280/products/135/448/eb668741-ef14-44d9-9ac9-3ac183b53d49__92203.1671549096__41377.1677408241.jpg?c=1" 
+                    alt="VW air intake ">
+                    <h3>  Air Intake </h3>
+                    <p>Improve breathing your engine that help you you to get more horse power.</p>
+                </div>
+
+
+                <div class="product" data-brand="audi">
+                    <img src="https://cdn10.bigcommerce.com/s-gnopa3kz47/products/2003/images/3084/825614-5005S__62330__44694.1475759439.500.659.jpg?c=2" 
+                    alt="audi turbo">
+                    <h3>  BIG TURBO </h3>
+                    <p>MAN ITS TURBO !! Stuuustuuuu</p>
+                </div>
+
+
+                <div class="product" data-brand="VW">
+                    <img src="https://wtscarbonfibre.com/cdn/shop/files/WeixinImage_20230928005457.jpg?v=1695827086" 
+                    alt="VW steering wheel">
+                    <h3>  Steering wheel </h3>
+                    <p>no words to say just watch </p>
+                </div>
+
+
+                <div class="product" data-brand="bmw">
+                    <img src="https://rm-motors.com/8655-large_default/downpipe-bmw-e81-e87-e82-e88-116d-118d-120d-123d-n47.jpg" 
+                    alt="bmw down pipe">
+                    <h3>  Down Pipe </h3>
+                    <p>listen esm3333333 esm33333333</p>
+                </div>
+                
+                <div class="product" data-brand="bmw">
+                    <img src="https://www.bimartuning.com/21767-thickbox_default/body-kit-bmw-e92-e93-conversion-in-m3.jpg" 
+                    alt="bmw body kit">
+                    <h3>Exterior body kit</h3>
+                    <p>beatiful </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="product" data-brand="mercedes">
+                <img src="https://www.ladnefelgi.pl/hpeciai/3d374b4b61b5ae788226d93336242267/eng_pl_4x-rims-20-for-MERCEDES-E-W211-W212-W213-S-W222-HX06F-80943_4.webp" 
+                alt="mercedes rims">
+                <h3> RIMS</h3>
+                <p>Bggest Rims for more stable.</p>
+            </div>
+
+            <div class="product" data-brand="mercedes">
+                <img src="https://i.ebayimg.com/images/g/YSYAAOSwvXBi4i9w/s-l1200.jpg" 
+                alt="suspension for mercedes benz brabus">
+                <h3> suspension</h3>
+                <p>make it dirfting ya basha 3wm we malksh d3wa </p>
+            </div>
+
+            <div class="product" data-brand="audi">
+                <img src="https://cdmsport.life/cdn/shop/products/image_952412fa-0f9c-4478-9e67-88dfb77b4877.png?v=1676294634&width=1920" 
+                alt="audi injectors">
+                <h3>  Fuel System </h3>
+                <p>Bye Bye petrol now more power more fuel </p>
+            </div>
+            
+
+
+            <div class="product" data-brand="Rebuild">
+                <img src="https://themechanicalengineering.com/wp-content/uploads/2020/09/Feature-Image-of-Piston.jpg" 
+                alt="pistion  rebuild">
+                <h3>  Rebuild Engine </h3>
+                <p>Way to 1,000 hp</p>
+            </div>
+            
+
+            <div class="product" data-brand="Rebuild">
+                <img src="https://www.eurosports.com.sg/shop/wp-content/uploads/2020/04/Stage-3-Software-Cover-AUDI-Tuning-Remap-Chiptuning-Reflash-upgrade.jpg" 
+                alt="ECU software">
+                <h3>  Software </h3>
+                <p>second step  to 1,000 hp</p>
+            </div>
+
+            <div class="product" data-brand="Rebuild">
+                <img src="https://www.bar-tek.com/cdn-cgi/image/fit=scale-down,quality=50,sharpen=1,format=auto,width=1920/https://www.bar-tek.com/media/1f/32/26/1652886613/oelkuehler_13reihen_dash_kl2er9tuqgf4t3t906d1.webp" 
+                alt="Oil cooler">
+                <h3>  Cooler </h3>
+                <p>make it cold and run in summer</p>
+            </div>
+        </section>
+    </main>
+    
+    <p>Contact Us : 17871 | Shift@gmail.com</p>
+    <p>Follow us : @Shift_Performances</p>
+    <p>© 2024 Car Parts Galore. All rights reserved.</p>
+
+    <script src="home.js"></script>
+</body>
+</html>
