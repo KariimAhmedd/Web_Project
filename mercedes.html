@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home.css">
+        <title>Mercedes</title>
+    </head>
+<body>
+    <header>
+        <a href="home.html">
+            <h1 id="site-name">Shift Store</h1>
+        </a>
+    
+    
+        <h3 id="under-name">For tunning and modification</h3>
+    </header>
+
+
+    <nav class="top-menu">
+        <ul>
+            <li class="dropmenu">
+                <ul>    
+                    <a href="home.html">HOME</a>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#product">PRODUCTS</a>
+                <ul class="dropdown-menu product-dropdown">
+                    <li><a href="#intake">Intake</a></li>
+                    <li><a href="#exhaust">Exhaust System</a></li>
+                    <li><a href="#turbo">Turbo/Superchargers</a></li>
+                    <li><a href="#fuel">Fuel System</a></li>
+                    <li><a href="#exterior">Exterior</a></li>
+                    <li><a href="#oil">Oil Cooler</a></li>
+                    <li><a href="#cooler">Cooler</a></li>
+                    <li><a href="#interior">Interior</a></li>
+                    <li><a href="#suspensions">Suspensions</a></li>
+                    <li><a href="#rims">Rims</a></li>
+                    <li><a href="#software">Software/Tuning</a></li>
+                    <li><a href="#rebuild">Rebuild Engine</a></li>
+
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <ul class="dropdown-menu bundle-dropdown">
+                    <li><a href="#">AUDIS</a></li>
+                    <li><a href="#">BEMERS</a></li>
+                    <li><a href="#">MERCDS</a></li>
+                    <li><a href="#">VAG</a></li>
+                </ul>
+            </li>
+
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#" id="cart-button"><i class="fas fa-shopping-cart"></i>CART</a></li>
+
+        </ul>
+    </nav>
+    <form action="" method="get" id="sortForm">
+        <label for="sort">Sort by:</label>
+        <select name="sort" id="sort">
+            <option value="asc">Price Low to High</option>
+            <option value="desc">Price High to Low</option>
+        </select>
+        <button type="submit" id="applyButton">Apply</button>
+    </form
+            <div class="product-container">
+
+                <div>
+                    <p><h3>Mercedes:</h3></p>
+                </div>
+                
+                <?php for ($i = 1; $i <= 80; $i++): ?>
+                <div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/H/R/HR_291522_1_3e7f.jpg">
+                    <h3>H&R Lowering Springs Blue Steel Mercedes A-Class<?php echo $i; ?></h3>
+                    <p>$900</p>
+                </div>
+                <div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/4/_/4_d5a2.jpg" alt="Product Image">
+                    <h3>JR-Wheels Size 19 inches 5/112 sport spokes<?php echo $i; ?></h3>
+                    <p>$1200</p>
+                </div>
+                <div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/T/5/T5_a20b.jpg" alt="Product Image">
+                    <h3>Rotinger Front Brake Discs Graphite Line T5  Mercedes A-Class<?php echo $i; ?></h3>
+                    <p>$730</p>
+                </div>
+                <div class="product">
+                    <img src="https://tro-nik.com/wp-content/uploads/2021/06/A-190-421-12-00.-pic-5_1200.jpg" alt="Product Image">
+                    <h3>MERCEDES AMG GT front caliper (left axle) ceramic brakes<?php echo $i; ?></h3>
+                    <p>$610</p>
+                </div><div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/4/_/4_d5a2.jpg" alt="Product Image">
+                    <h3>JR-Wheels<?php echo $i; ?></h3>
+                    <p>$1200</p>
+                </div>
+                <div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/4/_/4_d5a2.jpg" alt="Product Image">
+                    <h3>JR-Wheels<?php echo $i; ?></h3>
+                    <p>$1200</p>
+                </div>
+                <div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/4/_/4_d5a2.jpg" alt="Product Image">
+                    <h3>JR-Wheels<?php echo $i; ?></h3>
+                    <p>$1200</p>
+                </div>
+                <div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/4/_/4_d5a2.jpg" alt="Product Image">
+                    <h3>JR-Wheels<?php echo $i; ?></h3>
+                    <p>$1200</p>
+                </div>
+                <div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/4/_/4_d5a2.jpg" alt="Product Image">
+                    <h3>JR-Wheels<?php echo $i; ?></h3>
+                    <p>$1200</p>
+                </div>
+                <div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/4/_/4_d5a2.jpg" alt="Product Image">
+                    <h3>JR-Wheels<?php echo $i; ?></h3>
+                    <p>$1200</p>
+                </div>
+                <div class="product">
+                    <img src="https://fullcartuning.com/media/catalog/product/cache/164cf9e31979d0bf32f0e144003aaf1d/4/_/4_d5a2.jpg" alt="Product Image">
+                    <h3>JR-Wheels<?php echo $i; ?></h3>
+                    <p>$1200</p>
+                </div>
+
+            </div>
+                <?php endfor; ?>
+            </div>
+
+   
+    
+   
+</body>
+</html>
